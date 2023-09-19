@@ -18,7 +18,7 @@ WifiManager *wifiMan;
 
 void initWiFi() {
   WiFi.mode(WIFI_STA);
-  WiFi.begin("34Ryebridge", "welcometothirtyfour");
+  WiFi.begin("34Ryebridge", "XX");
   Serial.print("Connecting to WiFi ..");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print('.');
