@@ -1,0 +1,20 @@
+
+{
+  "sequences": [
+    {
+      "name": "Angelus",
+      "seq": [8,4,8,4,8,4,8]
+    },
+    {
+      "name": "one_minute",
+      "seq": [60]
+    }
+  ],
+  "triggers": [
+    {
+      "times":"09:00,10:47",
+      "days": "mon,wed,fri",
+      "sequence": "Angelus"
+    }
+  ]
+}
