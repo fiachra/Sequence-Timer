@@ -90,7 +90,7 @@ void WifiManager::configureWifi(char *wifiConfig) {
   }
 
   WiFi.mode(WIFI_STA);
-  WiFi.begin("34Ryebridge", "welcometothirtyfour");
+  WiFi.begin("34Ryebridge", "XX");
   while (WiFi.status() != WL_CONNECTED) {
     Serial.print('.');
     delay(1000);
